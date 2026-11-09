@@ -1,0 +1,72 @@
+{
+  "model": "models/Qwen3-4B-PARO",
+  "mode": "naive",
+  "task": "generate",
+  "seed": 919,
+  "load_seconds": 3.0055524492636323,
+  "load_peak_bytes": 2803003392,
+  "configuration": {
+    "model": "models/Qwen3-4B-PARO",
+    "mode": "naive",
+    "task": "generate",
+    "data": "data/wikitext2_test.jsonl",
+    "context": 2048,
+    "limit": 0,
+    "new_tokens": 8,
+    "seed": 919,
+    "batch": 8,
+    "start_index": 0,
+    "layer_errors": null,
+    "prompt_lengths": [
+      32,
+      512,
+      2048
+    ],
+    "resume": false,
+    "output": "results/models_formal/4b_naive_seed919.json"
+  },
+  "records": [
+    {
+      "index": 0,
+      "prompt_tokens": 54,
+      "generated_tokens": 8,
+      "document_tokens": 32,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 2.6698063388466835,
+      "decode_seconds": 16.118459546007216,
+      "prompt_warmup_seconds": 4.972200040705502,
+      "decode_tokens_per_second": 0.4342846771442253,
+      "peak_bytes": 3318014464
+    },
+    {
+      "index": 1,
+      "prompt_tokens": 534,
+      "generated_tokens": 8,
+      "document_tokens": 512,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 2.9677524734288454,
+      "decode_seconds": 16.117348251864314,
+      "prompt_warmup_seconds": 5.26791188493371,
+      "decode_tokens_per_second": 0.4343146211530362,
+      "peak_bytes": 3433937408
+    },
+    {
+      "index": 2,
+      "prompt_tokens": 2070,
+      "generated_tokens": 8,
+      "document_tokens": 2048,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 3.5426237266510725,
+      "decode_seconds": 16.084082793444395,
+      "prompt_warmup_seconds": 5.899837394244969,
+      "decode_tokens_per_second": 0.4352128803299299,
+      "peak_bytes": 3738577920
+    }
+  ],
+  "complete": true,
+  "warmup_seconds": 4.846045665442944,
+  "first_forward_peak_bytes": 3306625536
+}

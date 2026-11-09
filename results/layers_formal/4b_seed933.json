@@ -1,0 +1,582 @@
+{
+  "model": "models/Qwen3-4B-PARO",
+  "seed": 933,
+  "records": [
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        1,
+        2560,
+        4096
+      ],
+      "mode": "triton",
+      "seconds": 0.005760815832763911,
+      "peak_bytes": 6076928,
+      "relative_l2": 0.0007392606632249235,
+      "max_error": 0.00390625,
+      "first_triton_seconds": 0.1557401129975915,
+      "weight_layout_seconds": 0.0003169514238834381,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        1,
+        2560,
+        4096
+      ],
+      "mode": "naive",
+      "seconds": 0.0070059502497315405,
+      "peak_bytes": 215785984,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.1557401129975915,
+      "weight_layout_seconds": 5.48437237739563e-05,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        1,
+        2560,
+        4096
+      ],
+      "mode": "dense",
+      "seconds": 0.001511786412447691,
+      "peak_bytes": 27084800,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.1557401129975915,
+      "weight_layout_seconds": 0.005803864449262619,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        1,
+        2560,
+        4096
+      ],
+      "mode": "dense_fused",
+      "seconds": 8.210791274905205e-05,
+      "peak_bytes": 27048960,
+      "relative_l2": 0.0007218753151625142,
+      "max_error": 0.00390625,
+      "first_triton_seconds": 0.1557401129975915,
+      "weight_layout_seconds": 0.00574131403118372,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        1,
+        2560,
+        4096
+      ],
+      "mode": "native_unfused",
+      "seconds": 0.0016706980764865874,
+      "peak_bytes": 78594560,
+      "relative_l2": 0.000660383076302268,
+      "max_error": 0.00390625,
+      "first_triton_seconds": 0.1557401129975915,
+      "weight_layout_seconds": 0.010602353140711784,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        1,
+        2560,
+        4096
+      ],
+      "mode": "native",
+      "seconds": 8.256090804934502e-05,
+      "peak_bytes": 78594560,
+      "relative_l2": 0.0009000149466641263,
+      "max_error": 0.0048828125,
+      "first_triton_seconds": 0.1557401129975915,
+      "weight_layout_seconds": 0.00048803165555000305,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        16,
+        2560,
+        4096
+      ],
+      "mode": "triton",
+      "seconds": 0.010803050827234983,
+      "peak_bytes": 7107584,
+      "relative_l2": 0.0007384250642057454,
+      "max_error": 0.005859375,
+      "first_triton_seconds": 0.019044711254537106,
+      "weight_layout_seconds": 4.5806169509887695e-05,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        16,
+        2560,
+        4096
+      ],
+      "mode": "naive",
+      "seconds": 0.007369585335254669,
+      "peak_bytes": 216431104,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.019044711254537106,
+      "weight_layout_seconds": 3.64203006029129e-05,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        16,
+        2560,
+        4096
+      ],
+      "mode": "dense",
+      "seconds": 0.00170750105753541,
+      "peak_bytes": 28179968,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.019044711254537106,
+      "weight_layout_seconds": 0.005788885988295078,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        16,
+        2560,
+        4096
+      ],
+      "mode": "dense_fused",
+      "seconds": 7.43374228477478e-05,
+      "peak_bytes": 27816960,
+      "relative_l2": 0.0007384250642057454,
+      "max_error": 0.005859375,
+      "first_triton_seconds": 0.019044711254537106,
+      "weight_layout_seconds": 0.005761275067925453,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        16,
+        2560,
+        4096
+      ],
+      "mode": "native_unfused",
+      "seconds": 0.0017549959011375904,
+      "peak_bytes": 79362560,
+      "relative_l2": 0.000618708087645481,
+      "max_error": 0.0048828125,
+      "first_triton_seconds": 0.019044711254537106,
+      "weight_layout_seconds": 0.00034022703766822815,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        16,
+        2560,
+        4096
+      ],
+      "mode": "native",
+      "seconds": 8.122930303215981e-05,
+      "peak_bytes": 79362560,
+      "relative_l2": 0.0009254370323509522,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.019044711254537106,
+      "weight_layout_seconds": 0.0003782026469707489,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        128,
+        2560,
+        4096
+      ],
+      "mode": "triton",
+      "seconds": 0.07902914173901081,
+      "peak_bytes": 16773120,
+      "relative_l2": 0.0007298440944386806,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.0833752853795886,
+      "weight_layout_seconds": 4.404876381158829e-05,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        128,
+        2560,
+        4096
+      ],
+      "mode": "naive",
+      "seconds": 0.007698284089565277,
+      "peak_bytes": 222295552,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.0833752853795886,
+      "weight_layout_seconds": 9.014550596475601e-05,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        128,
+        2560,
+        4096
+      ],
+      "mode": "dense",
+      "seconds": 0.002020373847335577,
+      "peak_bytes": 37485056,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.0833752853795886,
+      "weight_layout_seconds": 0.00583567563444376,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        128,
+        2560,
+        4096
+      ],
+      "mode": "dense_fused",
+      "seconds": 7.721772417426109e-05,
+      "peak_bytes": 34598912,
+      "relative_l2": 0.0007298755979705556,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.0833752853795886,
+      "weight_layout_seconds": 0.005791974253952503,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        128,
+        2560,
+        4096
+      ],
+      "mode": "native_unfused",
+      "seconds": 0.0020680686458945273,
+      "peak_bytes": 56784384,
+      "relative_l2": 1.2351105461478378e-05,
+      "max_error": 0.00390625,
+      "first_triton_seconds": 0.0833752853795886,
+      "weight_layout_seconds": 0.0003948928788304329,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.self_attn.q_proj",
+      "shape": [
+        128,
+        2560,
+        4096
+      ],
+      "mode": "native",
+      "seconds": 8.607050403952599e-05,
+      "peak_bytes": 56784384,
+      "relative_l2": 0.0007298440944386806,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.0833752853795886,
+      "weight_layout_seconds": 0.000489523634314537,
+      "rotation_prepare_seconds": 0.07689691055566072
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        1,
+        9728,
+        2560
+      ],
+      "mode": "triton",
+      "seconds": 0.014512669760733843,
+      "peak_bytes": 15143424,
+      "relative_l2": 0.0008263018024929975,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.019110956229269505,
+      "weight_layout_seconds": 5.656573921442032e-05,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        1,
+        9728,
+        2560
+      ],
+      "mode": "naive",
+      "seconds": 0.01386819900944829,
+      "peak_bytes": 518454272,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.019110956229269505,
+      "weight_layout_seconds": 4.065129905939102e-05,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        1,
+        9728,
+        2560
+      ],
+      "mode": "dense",
+      "seconds": 0.0017790649086236953,
+      "peak_bytes": 65097728,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.019110956229269505,
+      "weight_layout_seconds": 0.01211973000317812,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        1,
+        9728,
+        2560
+      ],
+      "mode": "dense_fused",
+      "seconds": 7.433360442519188e-05,
+      "peak_bytes": 64951296,
+      "relative_l2": 0.0007847624583085529,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.019110956229269505,
+      "weight_layout_seconds": 0.012154361233115196,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        1,
+        9728,
+        2560
+      ],
+      "mode": "native_unfused",
+      "seconds": 0.0017979548312723637,
+      "peak_bytes": 95095296,
+      "relative_l2": 0.0006548038991340004,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.019110956229269505,
+      "weight_layout_seconds": 0.003982992842793465,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        1,
+        9728,
+        2560
+      ],
+      "mode": "native",
+      "seconds": 8.452478796243668e-05,
+      "peak_bytes": 95095296,
+      "relative_l2": 0.0010273789933577685,
+      "max_error": 0.01171875,
+      "first_triton_seconds": 0.019110956229269505,
+      "weight_layout_seconds": 0.0006354786455631256,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        16,
+        9728,
+        2560
+      ],
+      "mode": "triton",
+      "seconds": 0.027362870518118143,
+      "peak_bytes": 16275456,
+      "relative_l2": 0.0007696038727480173,
+      "max_error": 0.01171875,
+      "first_triton_seconds": 0.03113336768001318,
+      "weight_layout_seconds": 4.456751048564911e-05,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        16,
+        9728,
+        2560
+      ],
+      "mode": "naive",
+      "seconds": 0.015027614124119282,
+      "peak_bytes": 519345152,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.03113336768001318,
+      "weight_layout_seconds": 3.722868859767914e-05,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        16,
+        9728,
+        2560
+      ],
+      "mode": "dense",
+      "seconds": 0.002940533868968487,
+      "peak_bytes": 67707392,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.03113336768001318,
+      "weight_layout_seconds": 0.012107046321034431,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        16,
+        9728,
+        2560
+      ],
+      "mode": "dense_fused",
+      "seconds": 7.52693973481655e-05,
+      "peak_bytes": 65918976,
+      "relative_l2": 0.0007696038727480173,
+      "max_error": 0.01171875,
+      "first_triton_seconds": 0.03113336768001318,
+      "weight_layout_seconds": 0.012123018503189087,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        16,
+        9728,
+        2560
+      ],
+      "mode": "native_unfused",
+      "seconds": 0.003011664468795061,
+      "peak_bytes": 96062976,
+      "relative_l2": 0.000665163694305965,
+      "max_error": 0.0078125,
+      "first_triton_seconds": 0.03113336768001318,
+      "weight_layout_seconds": 0.0006160764023661613,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        16,
+        9728,
+        2560
+      ],
+      "mode": "native",
+      "seconds": 8.348319679498672e-05,
+      "peak_bytes": 96062976,
+      "relative_l2": 0.0009790230394698674,
+      "max_error": 0.015625,
+      "first_triton_seconds": 0.03113336768001318,
+      "weight_layout_seconds": 0.0006900569424033165,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        128,
+        9728,
+        2560
+      ],
+      "mode": "triton",
+      "seconds": 0.1910276741720736,
+      "peak_bytes": 24776704,
+      "relative_l2": 0.0007684946100862642,
+      "max_error": 0.015625,
+      "first_triton_seconds": 0.19497879594564438,
+      "weight_layout_seconds": 4.609394818544388e-05,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        128,
+        9728,
+        2560
+      ],
+      "mode": "naive",
+      "seconds": 0.015150287933647633,
+      "peak_bytes": 525997056,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.19497879594564438,
+      "weight_layout_seconds": 5.3202733397483826e-05,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        128,
+        9728,
+        2560
+      ],
+      "mode": "dense",
+      "seconds": 0.00302262706682086,
+      "peak_bytes": 87628288,
+      "relative_l2": 0.0,
+      "max_error": 0.0,
+      "first_triton_seconds": 0.19497879594564438,
+      "weight_layout_seconds": 0.012150685302913189,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        128,
+        9728,
+        2560
+      ],
+      "mode": "dense_fused",
+      "seconds": 0.00016461005434393884,
+      "peak_bytes": 73144320,
+      "relative_l2": 0.0007685021547068602,
+      "max_error": 0.015625,
+      "first_triton_seconds": 0.19497879594564438,
+      "weight_layout_seconds": 0.012164528481662273,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        128,
+        9728,
+        2560
+      ],
+      "mode": "native_unfused",
+      "seconds": 0.003074255585670471,
+      "peak_bytes": 102764032,
+      "relative_l2": 1.6145556855023043e-05,
+      "max_error": 0.00390625,
+      "first_triton_seconds": 0.19497879594564438,
+      "weight_layout_seconds": 0.0006826845929026604,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    },
+    {
+      "module": "model.layers.0.mlp.down_proj",
+      "shape": [
+        128,
+        9728,
+        2560
+      ],
+      "mode": "native",
+      "seconds": 0.000211272481828928,
+      "peak_bytes": 102764032,
+      "relative_l2": 0.0007684946100862642,
+      "max_error": 0.015625,
+      "first_triton_seconds": 0.19497879594564438,
+      "weight_layout_seconds": 0.0007704934105277061,
+      "rotation_prepare_seconds": 0.0008557746186852455
+    }
+  ]
+}

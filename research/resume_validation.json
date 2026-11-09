@@ -1,0 +1,13 @@
+{
+  "model": "Qwen3-4B-PARO",
+  "mode": "optimized",
+  "task": "gsm8k",
+  "saved_examples_before_interrupt": 16,
+  "saved_examples_after_resume": 24,
+  "configuration_equal": true,
+  "saved_records_equal": true,
+  "saved_batches_equal": true,
+  "new_records_appended": true,
+  "indices_contiguous": true,
+  "output": "results/quality/4b_optimized_gsm8k.json"
+}

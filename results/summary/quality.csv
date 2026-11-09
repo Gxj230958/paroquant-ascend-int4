@@ -1,0 +1,13 @@
+model,mode,task,evaluated_tokens,evaluated_examples,perplexity,accuracy
+../.cache/models/Qwen3-4B,bf16,gsm8k,,1319,,0.9052312357846853
+../.cache/models/Qwen3-4B,bf16,perplexity,299077,,13.665473178650887,
+models/Qwen3-4B-PARO,dense_fused,gsm8k,,1319,,0.8984078847611827
+models/Qwen3-4B-PARO,dense_fused,perplexity,299077,,13.85907435243747,
+models/Qwen3-4B-PARO,optimized,gsm8k,,1319,,0.8953752843062927
+models/Qwen3-4B-PARO,optimized,perplexity,299077,,13.85871551880204,
+models/Qwen3-8B,bf16,gsm8k,,1319,,0.8733889310083397
+models/Qwen3-8B,bf16,perplexity,299077,,9.728429355020936,
+models/Qwen3-8B-PARO,dense_fused,gsm8k,,1319,,0.869598180439727
+models/Qwen3-8B-PARO,dense_fused,perplexity,299077,,9.882059507531181,
+models/Qwen3-8B-PARO,optimized,gsm8k,,1319,,0.8711144806671721
+models/Qwen3-8B-PARO,optimized,perplexity,299077,,9.881994913371976,

@@ -1,0 +1,72 @@
+{
+  "model": "models/Qwen3-8B-PARO",
+  "mode": "optimized",
+  "task": "generate",
+  "seed": 917,
+  "load_seconds": 3.6927994517609477,
+  "load_peak_bytes": 6135865344,
+  "configuration": {
+    "model": "models/Qwen3-8B-PARO",
+    "mode": "optimized",
+    "task": "generate",
+    "data": "data/wikitext2_test.jsonl",
+    "context": 2048,
+    "limit": 0,
+    "new_tokens": 8,
+    "seed": 917,
+    "batch": 8,
+    "start_index": 0,
+    "layer_errors": null,
+    "prompt_lengths": [
+      32,
+      512,
+      2048
+    ],
+    "resume": false,
+    "output": "results/models_formal/8b_optimized_seed917.json"
+  },
+  "records": [
+    {
+      "index": 0,
+      "prompt_tokens": 54,
+      "generated_tokens": 8,
+      "document_tokens": 32,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 0.05141410883516073,
+      "decode_seconds": 0.3147613750770688,
+      "prompt_warmup_seconds": 1.4578145863488317,
+      "decode_tokens_per_second": 22.2390691941985,
+      "peak_bytes": 9977197568
+    },
+    {
+      "index": 1,
+      "prompt_tokens": 534,
+      "generated_tokens": 8,
+      "document_tokens": 512,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 0.1329094059765339,
+      "decode_seconds": 0.3098970679566264,
+      "prompt_warmup_seconds": 1.3809623094275594,
+      "decode_tokens_per_second": 22.588145303071176,
+      "peak_bytes": 10161104384
+    },
+    {
+      "index": 2,
+      "prompt_tokens": 2070,
+      "generated_tokens": 8,
+      "document_tokens": 2048,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 0.39590679854154587,
+      "decode_seconds": 0.31464582961052656,
+      "prompt_warmup_seconds": 1.647631537169218,
+      "decode_tokens_per_second": 22.247235911770094,
+      "peak_bytes": 10430518272
+    }
+  ],
+  "complete": true,
+  "warmup_seconds": 4.118665976449847,
+  "first_forward_peak_bytes": 9912983552
+}

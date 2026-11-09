@@ -1,0 +1,180 @@
+{
+  "checked_utc": "2026-11-02 23:52:45 UTC",
+  "pull_requests": [
+    {
+      "key": "hao_hccl",
+      "url": "https://github.com/hao-ai-lab/FastVideo/pull/2053",
+      "title": "[bugfix] Use NPU current streams in PyHcclCommunicator",
+      "state": "open",
+      "draft": true,
+      "head_sha": "52e5c3b93138ded0c30e28d9e63f29fc06acf2a3",
+      "base_sha": "4f80c5a3da1db79156198993417c34897d729406",
+      "mergeable": true,
+      "comments": [
+        {
+          "url": "https://github.com/hao-ai-lab/FastVideo/pull/2053#issuecomment-6583044344",
+          "body": "# Merge Protections\n\n🔴 **1 of 1 protections blocking** · waiting on 👀 reviews and 🤖 CI\n\n| | Protection | Waiting on |\n|:--:|:--|:--:|\n| 🔴 | **PR merge requirements** | 👀 reviews and 🤖 CI |\n\n## 🔴 PR merge requirements\n\n**Waiting for**\n\n- [ ] `#approved-reviews-by>=1`\n- [ ] `check-success=fastcheck-passed`\n- [ ] `check-success=full-suite-passed`\n- [ ] `check-success~=pre-commit`\n\n<details><summary>This rule is failing.</summary>\n\n\n- [ ] `#approved-reviews-by>=1`\n- [ ] `check-success=fastcheck-passed`\n- [ ] `check-success=full-suite-passed`\n- [ ] `check-success~=pre-commit`\n- [X] `title~=(?i)^\\[(feat|feature|bugfix|fix|refactor|perf|ci|doc|docs|misc|chore|kernel|new.?model|skill|skills|infra)\\]`\n\n</details>",
+          "user": "mergify[bot]",
+          "created_at": "2026-11-02T16:57:53Z",
+          "updated_at": "2026-11-02T16:57:53Z",
+          "review": null
+        }
+      ],
+      "human_technical_feedback": [],
+      "statuses": [
+        {
+          "context": "buildkite/pr-fastcheck/pipeline-pipeline-upload",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127#01a19d31-9966-4197-9fb3-0425a17b1ca2"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-unit-tests",
+          "state": "failure",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127#01a19d31-d814-4adc-b2e4-fac41fd66899"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-kernel-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127#01a19d31-d817-4cf2-a1ef-c97ffb529763"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-dreamverse-app-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127#01a19d31-d81a-4c2e-a5da-a135b9a76a0c"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-encoder-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127#01a19d31-d81d-458c-b264-1a37004e0454"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-vae-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127#01a19d31-d81f-4064-8b08-0efe35e365ec"
+        },
+        {
+          "context": "buildkite/pr-fastcheck",
+          "state": "failure",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127"
+        },
+        {
+          "context": "fastcheck-passed",
+          "state": "failure",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-transformer-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2127#01a19d31-d822-45dd-8d00-a6f1f0ce7d56"
+        }
+      ],
+      "workflow_runs": [
+        {
+          "id": 41486467497,
+          "name": "Deploy Documentation",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_number": 1890,
+          "jobs_url": "https://api.github.com/repos/hao-ai-lab/FastVideo/actions/runs/41486467497/jobs",
+          "logs_url": "https://api.github.com/repos/hao-ai-lab/FastVideo/actions/runs/41486467497/logs",
+          "workflow_id": 252984520
+        }
+      ]
+    },
+    {
+      "key": "hao_planner",
+      "url": "https://github.com/hao-ai-lab/FastVideo/pull/2055",
+      "title": "[feat] Plan Wan activation policies from measured memory budgets",
+      "state": "open",
+      "draft": true,
+      "head_sha": "ab6d1420cb0eb6613e27e1f9894cd82c4f3174a8",
+      "base_sha": "4f80c5a3da1db79156198993417c34897d729406",
+      "mergeable": true,
+      "comments": [
+        {
+          "url": "https://github.com/hao-ai-lab/FastVideo/pull/2055#issuecomment-6586395074",
+          "body": "# Merge Protections\n\n🔴 **1 of 1 protections blocking** · waiting on 👀 reviews and 🤖 CI\n\n| | Protection | Waiting on |\n|:--:|:--|:--:|\n| 🔴 | **PR merge requirements** | 👀 reviews and 🤖 CI |\n\n## 🔴 PR merge requirements\n\n**Waiting for**\n\n- [ ] `#approved-reviews-by>=1`\n- [ ] `check-success=fastcheck-passed`\n- [ ] `check-success=full-suite-passed`\n- [ ] `check-success~=pre-commit`\n\n<details><summary>This rule is failing.</summary>\n\n\n- [ ] `#approved-reviews-by>=1`\n- [ ] `check-success=fastcheck-passed`\n- [ ] `check-success=full-suite-passed`\n- [ ] `check-success~=pre-commit`\n- [X] `title~=(?i)^\\[(feat|feature|bugfix|fix|refactor|perf|ci|doc|docs|misc|chore|kernel|new.?model|skill|skills|infra)\\]`\n\n</details>",
+          "user": "mergify[bot]",
+          "created_at": "2026-11-02T19:26:25Z",
+          "updated_at": "2026-11-02T19:26:25Z",
+          "review": null
+        }
+      ],
+      "human_technical_feedback": [],
+      "statuses": [
+        {
+          "context": "buildkite/pr-fastcheck/pipeline-pipeline-upload",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130#01a19db9-a8a9-4bb8-8a9b-25e0510f1c6b"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-unit-tests",
+          "state": "failure",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130#01a19db9-dd79-4f85-a88f-e8e670ecf554"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-kernel-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130#01a19db9-dd7e-4b1d-97c2-069f2a26d415"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-dreamverse-app-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130#01a19db9-dd80-4935-ac36-f2140e83bc53"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-encoder-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130#01a19db9-dd83-4f05-bfd2-01b21b7c7843"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-vae-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130#01a19db9-dd85-477c-b7b4-2c52291e9b03"
+        },
+        {
+          "context": "buildkite/pr-fastcheck",
+          "state": "failure",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130"
+        },
+        {
+          "context": "buildkite/pr-fastcheck/microscope-transformer-tests",
+          "state": "success",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130#01a19db9-dd87-474a-b4dc-8d68f9f44e8b"
+        },
+        {
+          "context": "fastcheck-passed",
+          "state": "failure",
+          "target_url": "https://buildkite.com/fastvideo/pr-fastcheck/builds/2130"
+        }
+      ],
+      "workflow_runs": [
+        {
+          "id": 41509861297,
+          "name": "Deploy Documentation",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_number": 1892,
+          "jobs_url": "https://api.github.com/repos/hao-ai-lab/FastVideo/actions/runs/41509861297/jobs",
+          "logs_url": "https://api.github.com/repos/hao-ai-lab/FastVideo/actions/runs/41509861297/logs",
+          "workflow_id": 252984520
+        }
+      ]
+    },
+    {
+      "key": "paro",
+      "url": "https://github.com/z-lab/paroquant/pull/57",
+      "title": "Add Ascend Transformers inference with fused rotations and packed INT4",
+      "state": "open",
+      "draft": true,
+      "head_sha": "2c90b82ac149dfc8e846b80796df8bcfe4a49280",
+      "base_sha": "9ee635a9c2e7d02c46b1c0ac4071d69afbbfc1f1",
+      "mergeable": true,
+      "comments": [],
+      "human_technical_feedback": [],
+      "statuses": [],
+      "workflow_runs": []
+    }
+  ],
+  "conclusion": "No new human technical feedback. ParoQuant has no remote status checks or PR workflow runs recorded at this snapshot. FastVideo retains the documented Docs formatting and private Buildkite unit-test failures; their logs were not queried again."
+}

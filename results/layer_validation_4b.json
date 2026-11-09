@@ -1,0 +1,35 @@
+{
+  "model": "models/Qwen3-4B-PARO",
+  "mode": "optimized",
+  "task": "generate",
+  "seed": 971,
+  "load_seconds": 2.9258200293406844,
+  "configuration": {
+    "model": "models/Qwen3-4B-PARO",
+    "mode": "optimized",
+    "task": "generate",
+    "data": null,
+    "context": 2048,
+    "limit": 1,
+    "new_tokens": 2,
+    "seed": 971,
+    "batch": 8,
+    "start_index": 0,
+    "layer_errors": "results/layer_errors_4b.json",
+    "output": "results/layer_validation_4b.json"
+  },
+  "records": [
+    {
+      "index": 0,
+      "prompt_tokens": 23,
+      "generated_tokens": 2,
+      "text": "The sky",
+      "ttft_seconds": 0.05407347623258829,
+      "decode_seconds": 0.04879032541066408,
+      "prompt_warmup_seconds": 0.23587916512042284,
+      "decode_tokens_per_second": 20.495866579759078,
+      "peak_bytes": 4863302144
+    }
+  ],
+  "warmup_seconds": 5.63924777880311
+}

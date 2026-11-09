@@ -1,0 +1,59 @@
+{
+  "jobs": [
+    {
+      "card": 6,
+      "model_size_b": 4,
+      "mode": "optimized",
+      "command": "ASCEND_CARD=6 MODEL_SIZE=4 bash experiments/run_quality.sh optimized",
+      "perplexity_output": "results/quality/4b_optimized_perplexity.json",
+      "gsm8k_output": "results/quality/4b_optimized_gsm8k.json"
+    },
+    {
+      "card": 7,
+      "model_size_b": 8,
+      "mode": "optimized",
+      "command": "ASCEND_CARD=7 MODEL_SIZE=8 bash experiments/run_quality.sh optimized",
+      "perplexity_output": "results/quality/8b_optimized_perplexity.json",
+      "gsm8k_output": "results/quality/8b_optimized_gsm8k.json"
+    },
+    {
+      "card": 8,
+      "model_size_b": 4,
+      "mode": "dense_fused",
+      "command": "ASCEND_CARD=8 MODEL_SIZE=4 bash experiments/run_quality.sh dense_fused",
+      "perplexity_output": "results/quality/4b_dense_fused_perplexity.json",
+      "gsm8k_output": "results/quality/4b_dense_fused_gsm8k.json"
+    },
+    {
+      "card": 9,
+      "model_size_b": 8,
+      "mode": "dense_fused",
+      "command": "ASCEND_CARD=9 MODEL_SIZE=8 bash experiments/run_quality.sh dense_fused",
+      "perplexity_output": "results/quality/8b_dense_fused_perplexity.json",
+      "gsm8k_output": "results/quality/8b_dense_fused_gsm8k.json"
+    },
+    {
+      "card": 10,
+      "model_size_b": 4,
+      "mode": "bf16",
+      "command": "ASCEND_CARD=10 MODEL_SIZE=4 bash experiments/run_quality.sh bf16",
+      "perplexity_output": "results/quality/4b_bf16_perplexity.json",
+      "gsm8k_output": "results/quality/4b_bf16_gsm8k.json"
+    },
+    {
+      "card": 11,
+      "model_size_b": 8,
+      "mode": "bf16",
+      "command": "ASCEND_CARD=11 MODEL_SIZE=8 bash experiments/run_quality.sh bf16",
+      "perplexity_output": "results/quality/8b_bf16_perplexity.json",
+      "gsm8k_output": "results/quality/8b_bf16_gsm8k.json"
+    }
+  ],
+  "gsm8k_examples": 1319,
+  "batch": 8,
+  "max_new_tokens": 512,
+  "seed": 971,
+  "resume": true,
+  "perplexity_context": 2048,
+  "reuse_optimized_perplexity": true
+}

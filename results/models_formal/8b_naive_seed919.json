@@ -1,0 +1,72 @@
+{
+  "model": "models/Qwen3-8B-PARO",
+  "mode": "naive",
+  "task": "generate",
+  "seed": 919,
+  "load_seconds": 3.849856370128691,
+  "load_peak_bytes": 6266438656,
+  "configuration": {
+    "model": "models/Qwen3-8B-PARO",
+    "mode": "naive",
+    "task": "generate",
+    "data": "data/wikitext2_test.jsonl",
+    "context": 2048,
+    "limit": 0,
+    "new_tokens": 8,
+    "seed": 919,
+    "batch": 8,
+    "start_index": 0,
+    "layer_errors": null,
+    "prompt_lengths": [
+      32,
+      512,
+      2048
+    ],
+    "resume": false,
+    "output": "results/models_formal/8b_naive_seed919.json"
+  },
+  "records": [
+    {
+      "index": 0,
+      "prompt_tokens": 54,
+      "generated_tokens": 8,
+      "document_tokens": 32,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 4.29427882656455,
+      "decode_seconds": 26.966348197311163,
+      "prompt_warmup_seconds": 8.146923371590674,
+      "decode_tokens_per_second": 0.2595827936649567,
+      "peak_bytes": 7286989824
+    },
+    {
+      "index": 1,
+      "prompt_tokens": 534,
+      "generated_tokens": 8,
+      "document_tokens": 512,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 4.643259427510202,
+      "decode_seconds": 26.977732566185296,
+      "prompt_warmup_seconds": 8.500128204934299,
+      "decode_tokens_per_second": 0.25947325198019094,
+      "peak_bytes": 7467781120
+    },
+    {
+      "index": 2,
+      "prompt_tokens": 2070,
+      "generated_tokens": 8,
+      "document_tokens": 2048,
+      "decode_length": "fixed",
+      "text": "Robert Boulter is an English actor",
+      "ttft_seconds": 5.494531023316085,
+      "decode_seconds": 26.97586500737816,
+      "prompt_warmup_seconds": 9.393507232889533,
+      "decode_tokens_per_second": 0.2594912155026514,
+      "peak_bytes": 7750064128
+    }
+  ],
+  "complete": true,
+  "warmup_seconds": 6.420412105508149,
+  "first_forward_peak_bytes": 7273499648
+}

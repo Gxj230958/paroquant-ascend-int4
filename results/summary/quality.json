@@ -1,0 +1,110 @@
+[
+  {
+    "model": "../.cache/models/Qwen3-4B",
+    "mode": "bf16",
+    "task": "gsm8k",
+    "evaluated_tokens": null,
+    "evaluated_examples": 1319,
+    "perplexity": null,
+    "accuracy": 0.9052312357846853
+  },
+  {
+    "model": "../.cache/models/Qwen3-4B",
+    "mode": "bf16",
+    "task": "perplexity",
+    "evaluated_tokens": 299077,
+    "evaluated_examples": null,
+    "perplexity": 13.665473178650887,
+    "accuracy": null
+  },
+  {
+    "model": "models/Qwen3-4B-PARO",
+    "mode": "dense_fused",
+    "task": "gsm8k",
+    "evaluated_tokens": null,
+    "evaluated_examples": 1319,
+    "perplexity": null,
+    "accuracy": 0.8984078847611827
+  },
+  {
+    "model": "models/Qwen3-4B-PARO",
+    "mode": "dense_fused",
+    "task": "perplexity",
+    "evaluated_tokens": 299077,
+    "evaluated_examples": null,
+    "perplexity": 13.85907435243747,
+    "accuracy": null
+  },
+  {
+    "model": "models/Qwen3-4B-PARO",
+    "mode": "optimized",
+    "task": "gsm8k",
+    "evaluated_tokens": null,
+    "evaluated_examples": 1319,
+    "perplexity": null,
+    "accuracy": 0.8953752843062927
+  },
+  {
+    "model": "models/Qwen3-4B-PARO",
+    "mode": "optimized",
+    "task": "perplexity",
+    "evaluated_tokens": 299077,
+    "evaluated_examples": null,
+    "perplexity": 13.85871551880204,
+    "accuracy": null
+  },
+  {
+    "model": "models/Qwen3-8B",
+    "mode": "bf16",
+    "task": "gsm8k",
+    "evaluated_tokens": null,
+    "evaluated_examples": 1319,
+    "perplexity": null,
+    "accuracy": 0.8733889310083397
+  },
+  {
+    "model": "models/Qwen3-8B",
+    "mode": "bf16",
+    "task": "perplexity",
+    "evaluated_tokens": 299077,
+    "evaluated_examples": null,
+    "perplexity": 9.728429355020936,
+    "accuracy": null
+  },
+  {
+    "model": "models/Qwen3-8B-PARO",
+    "mode": "dense_fused",
+    "task": "gsm8k",
+    "evaluated_tokens": null,
+    "evaluated_examples": 1319,
+    "perplexity": null,
+    "accuracy": 0.869598180439727
+  },
+  {
+    "model": "models/Qwen3-8B-PARO",
+    "mode": "dense_fused",
+    "task": "perplexity",
+    "evaluated_tokens": 299077,
+    "evaluated_examples": null,
+    "perplexity": 9.882059507531181,
+    "accuracy": null
+  },
+  {
+    "model": "models/Qwen3-8B-PARO",
+    "mode": "optimized",
+    "task": "gsm8k",
+    "evaluated_tokens": null,
+    "evaluated_examples": 1319,
+    "perplexity": null,
+    "accuracy": 0.8711144806671721
+  },
+  {
+    "model": "models/Qwen3-8B-PARO",
+    "mode": "optimized",
+    "task": "perplexity",
+    "evaluated_tokens": 299077,
+    "evaluated_examples": null,
+    "perplexity": 9.881994913371976,
+    "accuracy": null
+  }
+]

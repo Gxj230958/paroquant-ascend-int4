@@ -1,0 +1,21 @@
+{
+  "model": "models/Qwen3-4B-PARO",
+  "mode": "optimized",
+  "task": "generate",
+  "seed": 971,
+  "load_seconds": 6.400964226573706,
+  "records": [
+    {
+      "index": 0,
+      "prompt_tokens": 23,
+      "generated_tokens": 2,
+      "text": "The sky",
+      "ttft_seconds": 0.048984562046825886,
+      "decode_seconds": 0.04646175727248192,
+      "prompt_warmup_seconds": 6.203385541215539,
+      "decode_tokens_per_second": 21.523077444861816,
+      "peak_bytes": 4773175296
+    }
+  ],
+  "warmup_seconds": 8.766311315819621
+}

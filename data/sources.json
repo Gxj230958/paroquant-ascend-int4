@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "Salesforce/wikitext",
+    "config": "wikitext-2-raw-v1",
+    "split": "test",
+    "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+    "rows": 4358,
+    "file": "wikitext2_test.jsonl",
+    "endpoint": "https://datasets-server.huggingface.co/rows"
+  },
+  {
+    "dataset": "openai/gsm8k",
+    "config": "main",
+    "split": "test",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "rows": 1319,
+    "file": "gsm8k_test.jsonl",
+    "endpoint": "https://datasets-server.huggingface.co/rows"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "status": "pass",
+  "cases": [
+    {
+      "shape": [
+        1,
+        128,
+        64
+      ],
+      "rotation_max_error": 0.00390625,
+      "linear_max_error": 0.0078125,
+      "native_max_error": 0.0,
+      "native_relative_l2": 0.0
+    },
+    {
+      "shape": [
+        3,
+        256,
+        128
+      ],
+      "rotation_max_error": 0.00390625,
+      "linear_max_error": 0.015625,
+      "native_max_error": 0.015625,
+      "native_relative_l2": 0.0005613250110655974
+    },
+    {
+      "shape": [
+        17,
+        256,
+        128
+      ],
+      "rotation_max_error": 0.00390625,
+      "linear_max_error": 1.52587890625e-05,
+      "native_max_error": 1.52587890625e-05,
+      "native_relative_l2": 3.999735749329395e-08
+    },
+    {
+      "shape": [
+        64,
+        512,
+        256
+      ],
+      "rotation_max_error": 0.0078125,
+      "linear_max_error": 0.0078125,
+      "native_max_error": 0.0078125,
+      "native_relative_l2": 8.105351798331315e-06
+    }
+  ]
+}
