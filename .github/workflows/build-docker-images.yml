@@ -77,6 +77,11 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Normalize image name
+        id: image
+        shell: bash
+        run: echo "name=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_OUTPUT"
+
       - name: Build and publish ${{ matrix.tag }} (${{ matrix.platforms }})
         uses: docker/build-push-action@v6
         with:
@@ -84,7 +89,7 @@ jobs:
           file: docker/Dockerfile
           target: ${{ matrix.target }}
           push: true
-          tags: ghcr.io/${{ github.repository }}:${{ matrix.tag }}
+          tags: ${{ steps.image.outputs.name }}:${{ matrix.tag }}
           platforms: ${{ matrix.platforms }}
           build-args: |
             CUDA_VERSION=${{ matrix.cuda_version }}
