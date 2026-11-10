@@ -82,7 +82,8 @@ CMD ["/bin/bash"]
 # ---- eval: reasoning task evaluation ----
 FROM base AS eval
 COPY . .
-RUN --mount=type=cache,target=/root/.cache/pip \
-    pip install --no-cache-dir -r ./experiments/tasks/reasoning/requirements.txt
+RUN pip install --no-cache-dir uv==0.13.7 && \
+    uv pip install --python "$VIRTUAL_ENV/bin/python" --no-cache \
+        -r ./experiments/tasks/reasoning/requirements.txt
 RUN pip install --no-cache-dir -e . --no-deps
 CMD ["/bin/bash"]
